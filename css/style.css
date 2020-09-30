@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body{
+    font: 16px/1.625 'open sans',sans-serif;
+}
+
+h1{
+    color:  #323232;
+    font-size: 52px;
+}
+
+p{
+    color: #8b8b8b;
+}
+
+a:hover{
+    color: #f73737 !important;
+}
+
+/* header css here */
+
+header{
+    background-color: #fff!important;
+}
+
+.navbar{
+    font-size: 1.25rem;
+    height: 5rem;
+}
+
+.jumbotron-fluid{
+    background-image: url('../images/bn_01.jpg');
+    background-size: cover;
+    height: 700px;
+}
+
+.jumbotron h1{
+    color: #fff;
+}
+ 
+/* article css here */
+
+article{
+    background: #eee;
+}
+
+.card-body{
+    background: #fff;
+    padding:10px 10px;
+}
+
+h6{
+    font-size: 16px;
+}
+
+.col-lg-3 .card-body::before{
+    position: absolute;
+    right: 1rem;
+    top: 11rem;
+    color: #fff;
+    background: rgba(0,0,0,0.3);
+    padding: 0 .25rem;
+}
+
+/* .col-lg-3:nth-child(1) .card-body::before{
+    content: "$1,095"!important;
+}
+
+.col-lg-3:nth-child(2) .card-body::before{
+    content: "$1,295"!important;
+}
+
+.col-lg-3:nth-child(3) .card-body::before{
+    content: "$695"!important;
+}
+
+.col-lg-3:nth-child(4) .card-body::before{
+    content: "$295"!important;
+} */
+
+/*  footer css here */
+
+
+input{
+    width: 70%;
+    border: none;
+    background-color: #eeeeee;
+    height: 40px;
+    text-indent: 1rem;
+}
+
+button{
+    width: 30%;
+    border: none;
+    background-color: #f73737;
+    height: 40px;
+    color:white;
+}
+
+/* footer-bottom css here */
+
+.footer-bottom{
+   background: #eee;
+}
+
+.footer-bottom a{
+    color:#323232;
+}
+
+@media (max-width:480px){
+    .navbar-toggler{
+        position: absolute;
+        z-index: 2;
+        right: 1rem;
+        width: 4rem;
+        height: 3.5rem;
+        background: #fff;
+        font-size: 1.5rem;
+    }
+    
+    #mainNav{
+        background: rgba(0,0,0,0.7);
+        position: absolute;
+        top: 0;
+        padding: 2rem;
+        left: -0.75rem;
+        width: 102.5vw;
+        height: 100vh;
+        z-index: 1;
+        transition: all 500ms ease-in-out;
+    }
+
+    #mainNav ul{
+        height: 100vh;
+    }
+
+    .collapse a{
+        color: #fff !important;
+    }
+
+    h1{
+        font-size:30px;
+    }
+
+    .mb-5{
+        margin-bottom: 2rem!important;
+    }
+
+    h3{
+    font-size: 30px;
+    }
+
+    .text-uppercase{
+        font-size:12px;
+    }
+
+    /* footer css here */
+    .w-50{
+        width: 100%!important;
+    }
+
+    .footer-bottom a{
+        padding: 6px;
+    }
+}
+
